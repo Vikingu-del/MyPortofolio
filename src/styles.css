@@ -123,6 +123,13 @@ a:hover {
   text-align: center;
 }
 
+#home .bounceArrow {
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
 img.socialIcon {
   height: 30px;
   width: 30px;
@@ -135,5 +142,14 @@ img.socialIcon {
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
   }
 }
