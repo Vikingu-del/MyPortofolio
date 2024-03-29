@@ -130,6 +130,12 @@ a:hover {
   animation-iteration-count: infinite;
 }
 
+section#education {
+  background-color: #f0f0f0; /* light gray */
+  min-height: 25vh; /* minimum height of the viewport */
+  padding: 2rem; /* some padding */
+}
+
 img.socialIcon {
   height: 30px;
   width: 30px;
