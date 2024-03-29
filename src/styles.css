@@ -14,6 +14,10 @@ body {
   width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 div#main {
   display: flex;
   flex-direction: column;
@@ -122,4 +126,20 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* add a slide In Left animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-50%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
