@@ -31,29 +31,54 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Libft",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      'The libft (short for "library functions") repository is a collection of essential C functions commonly used in programming projects. This library is the first project I did in 42Wolfsburg, redoing the standard C library functions from scratch, and I\'m using later to complete all the other projects.',
+    url: "https://github.com/Vikingu-del/libft",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Born 2 be Root",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      '"Born to be Root" is a comprehensive guide aimed at empowering individuals who are new to system administration, specifically focusing on mastering the Linux environment. This repository serves as a gateway for beginners to delve into the world of root access and system management with confidence.',
+    url: "https://github.com/Vikingu-del/Born2beRoot",
   },
   {
-    title: "My Resume Site",
+    title: "Push Swap",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This repository contains the implementation of the Push_swap project, which is part of the curriculum at 42. Push_swap is a sorting algorithm project that aims to sort a stack of integers using a limited set of operations.",
+    url: "https://github.com/Vikingu-del/Push_swap",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Minitalk",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "MiniTalk aims to establish a communication channel between a server and multiple clients using signals. The server listens for messages from clients and displays them, while clients can send messages to the server.",
+    url: "https://github.com/Vikingu-del/Minitalk",
   },
+  {
+    title: "FDF",
+    description:
+      "FDF, a simple wireframe renderer developed in C using the mlx library, which is a library written by my pears at 42Network. It is a great introduction to 3D graphics programming.",
+    url: "https://github.com/Vikingu-del/FDF",
+  },
+  {
+    title: "Cube3D",
+    description:
+      "cub3D is a project inspired by the iconic Wolfenstein 3D game, designed to introduce you to the world of ray-casting. In this project, we are creating a dynamic 3D graphical representation of a maze from a first-person perspective using the principles of ray-casting.",
+    url: "https://github.com/Vikingu-del/Cub3d",
+  },
+  {
+    title: "Minishell 🎉",
+    description:
+      "Minishell is a simple shell implementation in C. It's a minimal, basic shell that includes a subset of features from more complex shells like bash. This project is a great way to learn more about processes, file descriptors and system programming",
+    url: "https://github.com/Vikingu-del/Minishell",
+  },
+  {
+    title: "Inception",
+    description:
+      "A Guide I created to help my peers set up Docker containers & Nginx with Alpine Linux. Doing the project helped me a lot to understand how the containers work, how to set them up, how to usem them and how to create a Dockerfile. Start hosting your apps confidently!",
+    url: "https://github.com/Vikingu-del/Minishell",
+  },
+
 ];
 
 const Portfolio = () => {

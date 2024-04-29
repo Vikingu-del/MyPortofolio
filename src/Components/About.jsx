@@ -31,12 +31,12 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "C",
+  "C 1 year+ experience",
   "C++",
   "JavaScript",
   "React",
   "Node.js",
-  "Express",
+  "TailwindCSS",
   "MongoDB",
   "HTML",
   "CSS",
@@ -48,6 +48,7 @@ const skillsList = [
   "shell",
   "Linux",
   "SQL",
+  "Php",
 ];
 
 /**

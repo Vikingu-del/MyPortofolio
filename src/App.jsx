@@ -30,7 +30,7 @@ const siteProps = {
   email: "rk.seferi@gmail.com",
   gitHub: "Vikingu-del ",
   instagram: "erik_seferi",
-  linkedIn: "Erik Seferi",
+  linkedIn: "erik-seferi-393438202",
   medium: "",
   twitter: "",
   youTube: "",
