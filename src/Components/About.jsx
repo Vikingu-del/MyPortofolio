@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Software Engineer student studying at 42 Wolfsburg. I have a passion for creating user-friendly, accessible, and inclusive web applications. I am always looking for new ways to improve my skills and learn new technologies.";
+  "I'm an Electronics Engineer graduate currently doing projects as a Software engineer at 42 Wolfsburg. I have a passion for creating user-friendly, accessible, and inclusive software applications. I am always looking for new ways to improve my skills and learn new technologies.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
